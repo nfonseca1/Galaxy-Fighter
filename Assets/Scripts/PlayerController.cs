@@ -3,16 +3,20 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityStandardAssets.CrossPlatformInput;
 
-public class Player : MonoBehaviour
+public class PlayerController : MonoBehaviour
 {
+    [Header("General")]
     [Tooltip("In m/s")] [SerializeField] float xSpeed = 15f;
     [Tooltip("In m")] [SerializeField] float xRange = 5f;
     [Tooltip("In m/s")] [SerializeField] float ySpeed = 15f;
     [Tooltip("In m")] [SerializeField] float yRange = 3f;
 
+    [Header("Screen-position Based")]
     [SerializeField] float positionPitchFactor = -5f;
-    [SerializeField] float controlPitchFactor = -5f;
     [SerializeField] float positionYawFactor = 5f;
+
+    [Header("Control-throw Based")]
+    [SerializeField] float controlPitchFactor = -5f;
     [SerializeField] float controlRollFactor = -30f;
 
     float xThrow, yThrow;
