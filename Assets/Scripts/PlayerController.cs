@@ -20,13 +20,22 @@ public class PlayerController : MonoBehaviour
     [SerializeField] float controlRollFactor = -30f;
 
     float xThrow, yThrow;
+    bool isControlDisabled = false;
 
     // Update is called once per frame
     void Update()
     {
-        MoveOnXAxis();
-        MoveOnYAxis();
-        ProcessRotation();
+        if (!isControlDisabled)
+        {
+            MoveOnXAxis();
+            MoveOnYAxis();
+            ProcessRotation();
+        }
+    }
+
+    void OnPlayerDeath()
+    {
+        isControlDisabled = true;
     }
 
     private void ProcessRotation()

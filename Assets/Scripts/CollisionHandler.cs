@@ -12,7 +12,8 @@ public class CollisionHandler : MonoBehaviour
 
     private void OnTriggerEnter(Collider other)
     {
-
+        print("Collision");
+        SendMessage("OnPlayerDeath");
     }
 
     // Update is called once per frame
