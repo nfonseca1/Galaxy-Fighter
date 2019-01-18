@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 1621735875307606890}
   - component: {fileID: 1655803509020584026}
   - component: {fileID: 1647776188220540690}
-  - component: {fileID: 798737960}
+  - component: {fileID: 798737964}
   m_Layer: 0
   m_Name: Space Ship
   m_TagString: Untagged
@@ -78,7 +78,7 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
---- !u!114 &798737960
+--- !u!114 &798737964
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -87,19 +87,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 1624717903598146076}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fdd934debdcf81642b16790204aeac65, type: 3}
+  m_Script: {fileID: 11500000, guid: 8cceca33a26596944bbb26c0e5aa8e7c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  circuitObject: {fileID: 0}
-  circuit: {fileID: 0}
-  routeSpeed: 75
-  lookAheadDistance: 10
-  varyingSpeed: 0
-  initialSpeed: 0
-  rateOfChange: 1
-  waypointSpeedFactors: []
-  invokeMethods: 0
-  invokeWaypointEnabled: 
-  invokeNames: []
-  invokeDelay: []
-  invokeObject: []
+  xSpeed: 10
+  xRange: 5
+  ySpeed: 10
+  yRange: 2

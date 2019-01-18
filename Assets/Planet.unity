@@ -380,32 +380,12 @@ MonoBehaviour:
   invokeNames: []
   invokeDelay: []
   invokeObject: []
---- !u!1 &798737959 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 1624717903598146076, guid: 2970dffcc40039249bb51a0c9c923a42,
-    type: 3}
-  m_PrefabInstance: {fileID: 1625700315193007462}
-  m_PrefabAsset: {fileID: 0}
 --- !u!4 &798737963 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 1621735875307606890, guid: 2970dffcc40039249bb51a0c9c923a42,
     type: 3}
   m_PrefabInstance: {fileID: 1625700315193007462}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &798737964
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 798737959}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8cceca33a26596944bbb26c0e5aa8e7c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  xSpeed: 4
-  xRange: 5
 --- !u!1 &1062990277
 GameObject:
   m_ObjectHideFlags: 0
@@ -766,14 +746,9 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 798737960, guid: 2970dffcc40039249bb51a0c9c923a42, type: 3}
-      propertyPath: circuitObject
-      value: 
-      objectReference: {fileID: 1062990278}
-    - target: {fileID: 798737960, guid: 2970dffcc40039249bb51a0c9c923a42, type: 3}
-      propertyPath: circuit
-      value: 
-      objectReference: {fileID: 1062990278}
-    m_RemovedComponents:
-    - {fileID: 798737960, guid: 2970dffcc40039249bb51a0c9c923a42, type: 3}
+    - target: {fileID: 798737964, guid: 2970dffcc40039249bb51a0c9c923a42, type: 3}
+      propertyPath: yRange
+      value: 3
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2970dffcc40039249bb51a0c9c923a42, type: 3}
