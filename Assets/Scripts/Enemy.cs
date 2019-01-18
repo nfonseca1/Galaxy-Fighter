@@ -7,21 +7,27 @@ public class Enemy : MonoBehaviour
     [SerializeField] GameObject deathFX;
 
     MeshRenderer meshRenderer;
-    Collider collider;
+    BoxCollider boxCollider;
 
     float destroyDelay = 1.5f;
 
-    private void Start()
+    void Start()
     {
+        AddNonTriggerBoxCollider();
         meshRenderer = GetComponent<MeshRenderer>();
-        collider = GetComponent<Collider>();
+    }
+
+    private void AddNonTriggerBoxCollider()
+    {
+        boxCollider = gameObject.AddComponent<BoxCollider>();
+        boxCollider.isTrigger = false;
     }
 
     private void OnParticleCollision(GameObject other)
     {
         deathFX.SetActive(true);
         meshRenderer.enabled = false;
-        collider.enabled = false;
+        boxCollider.enabled = false;
         Invoke("Destroy", destroyDelay);
     }
 
