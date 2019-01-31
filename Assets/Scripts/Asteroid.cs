@@ -4,27 +4,15 @@ using UnityEngine;
 
 public class Asteroid : MonoBehaviour
 {
-    Vector3 speed;
-    float zSpeed = 5f;
-    float xSpeed = 0;
-    float ySpeed = 0;
+    Vector3 velocity;
 
-    [SerializeField] float minXSpeed = -10;
-    [SerializeField] float maxXSpeed = 10;
-    [SerializeField] float minYSpeed = -10;
-    [SerializeField] float maxYSpeed = 10;
-
-    // Start is called before the first frame update
-    void Start()
+    private void Update()
     {
-        xSpeed = Random.Range(minXSpeed, maxXSpeed);
-        ySpeed = Random.Range(minYSpeed, maxYSpeed);
-        speed = new Vector3(xSpeed, ySpeed, zSpeed);
+        transform.position = transform.position + transform.forward + velocity * Time.deltaTime;
     }
 
-    // Update is called once per frame
-    void Update()
+    public void SetVelocity(Vector3 inputVelocity)
     {
-        transform.position = transform.position + transform.forward + speed * Time.deltaTime;
+        velocity = inputVelocity;
     }
 }
