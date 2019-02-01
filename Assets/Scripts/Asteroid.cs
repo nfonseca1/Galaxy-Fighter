@@ -4,15 +4,11 @@ using UnityEngine;
 
 public class Asteroid : MonoBehaviour
 {
-    Vector3 velocity;
 
-    private void Update()
+    // Update is called once per frame
+    void Update()
     {
-        transform.position = transform.position + transform.forward + velocity * Time.deltaTime;
-    }
-
-    public void SetVelocity(Vector3 inputVelocity)
-    {
-        velocity = inputVelocity;
+        Vector3 rotation = new Vector3(0, 0, 10);
+        transform.Rotate(rotation * Time.deltaTime);
     }
 }
