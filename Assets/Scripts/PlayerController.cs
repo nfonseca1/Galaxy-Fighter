@@ -2,10 +2,12 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityStandardAssets.CrossPlatformInput;
+using UnityEngine.UI;
 
 public class PlayerController : MonoBehaviour
 {
     [Header("General")]
+    [SerializeField] Image crosshair;
     [Tooltip("In m/s")] [SerializeField] float xSpeed = 15f;
     [Tooltip("In m")] [SerializeField] float xRange = 5f;
     [Tooltip("In m/s")] [SerializeField] float ySpeed = 15f;
@@ -43,7 +45,8 @@ public class PlayerController : MonoBehaviour
             MoveOnYAxis();
             ProcessRotation();
         }
-        ProcessFiring();
+        Vector3 hitpoint = ProcessAiming();
+        ProcessFiring(hitpoint);
     }
 
     void OnPlayerDeath()
@@ -84,7 +87,7 @@ public class PlayerController : MonoBehaviour
         transform.localPosition = new Vector3(transform.localPosition.x, clampedYPos, transform.localPosition.z);
     }
 
-    private void ProcessFiring()
+    private void ProcessFiring(Vector3 hitpoint)
     {
         blasterTime += Time.deltaTime;
         if (CrossPlatformInputManager.GetButton("Fire1"))
@@ -93,18 +96,42 @@ public class PlayerController : MonoBehaviour
             {
                 if(currentBlaster == Blaster.LeftBlaster)
                 {
+                    leftGun.transform.LookAt(hitpoint);
                     leftGun.Play();
-                    
                     currentBlaster = Blaster.RightBlaster;
                     blasterTime = 0;
                 }
                 else
                 {
+                    rightGun.transform.LookAt(hitpoint);
                     rightGun.Play();
                     currentBlaster = Blaster.LeftBlaster;
                     blasterTime = 0;
                 }
             }
         }
+    }
+
+    private Vector3 ProcessAiming()
+    {
+        Vector3 crosshairPosition = Input.mousePosition;
+        crosshair.transform.position = crosshairPosition;
+        
+        Camera mainCamera = Camera.main;
+        Vector3 screenPoint = mainCamera.ScreenToWorldPoint(new Vector3(
+            crosshairPosition.x, 
+            crosshairPosition.y, 
+            1
+            ));
+
+        Vector3 rayDirection = screenPoint - mainCamera.gameObject.transform.position;
+        Ray aimRay = new Ray(screenPoint, rayDirection);
+        RaycastHit hitInfo;
+        if(Physics.Raycast(aimRay, out hitInfo, 10000))
+        {
+            return hitInfo.collider.gameObject.transform.position;
+        }
+
+        return new Vector3(transform.position.x, transform.position.y, transform.position.z + 1000000);
     }
 }
