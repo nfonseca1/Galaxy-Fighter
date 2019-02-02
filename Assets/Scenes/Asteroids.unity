@@ -130,12 +130,28 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ea7c251940678af4e8b2363e41ade929, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  asteroidExplosion: {fileID: 9074552155992758149, guid: 5215ee35441956f4299a6b6793bff37a,
+    type: 3}
 --- !u!4 &42119868 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 400000, guid: 72fd38d3d1566e74b8726177e8de153f,
     type: 3}
   m_PrefabInstance: {fileID: 379361896}
   m_PrefabAsset: {fileID: 0}
+--- !u!64 &42119869
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 42119864}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Convex: 1
+  m_CookingOptions: 14
+  m_Mesh: {fileID: 4300000, guid: 72fd38d3d1566e74b8726177e8de153f, type: 3}
 --- !u!1001 &57691447
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -241,12 +257,28 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ea7c251940678af4e8b2363e41ade929, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  asteroidExplosion: {fileID: 9074552155992758149, guid: 5215ee35441956f4299a6b6793bff37a,
+    type: 3}
 --- !u!4 &101451318 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 400000, guid: 72fd38d3d1566e74b8726177e8de153f,
     type: 3}
   m_PrefabInstance: {fileID: 1742031654}
   m_PrefabAsset: {fileID: 0}
+--- !u!64 &101451319
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 101451314}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Convex: 1
+  m_CookingOptions: 14
+  m_Mesh: {fileID: 4300000, guid: 72fd38d3d1566e74b8726177e8de153f, type: 3}
 --- !u!1 &115820484 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 100000, guid: 72fd38d3d1566e74b8726177e8de153f,
@@ -265,12 +297,28 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ea7c251940678af4e8b2363e41ade929, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  asteroidExplosion: {fileID: 9074552155992758149, guid: 5215ee35441956f4299a6b6793bff37a,
+    type: 3}
 --- !u!4 &115820488 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 400000, guid: 72fd38d3d1566e74b8726177e8de153f,
     type: 3}
   m_PrefabInstance: {fileID: 664246885}
   m_PrefabAsset: {fileID: 0}
+--- !u!64 &115820489
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 115820484}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Convex: 1
+  m_CookingOptions: 14
+  m_Mesh: {fileID: 4300000, guid: 72fd38d3d1566e74b8726177e8de153f, type: 3}
 --- !u!1001 &137087070
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -358,12 +406,28 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ea7c251940678af4e8b2363e41ade929, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  asteroidExplosion: {fileID: 9074552155992758149, guid: 5215ee35441956f4299a6b6793bff37a,
+    type: 3}
 --- !u!4 &148751074 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 400000, guid: 72fd38d3d1566e74b8726177e8de153f,
     type: 3}
   m_PrefabInstance: {fileID: 2064637689}
   m_PrefabAsset: {fileID: 0}
+--- !u!64 &148751075
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 148751070}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Convex: 1
+  m_CookingOptions: 14
+  m_Mesh: {fileID: 4300000, guid: 72fd38d3d1566e74b8726177e8de153f, type: 3}
 --- !u!1 &153375510 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 100000, guid: 87a7172321f03484a9f7bf3cdf05c6dc,
@@ -382,12 +446,28 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ea7c251940678af4e8b2363e41ade929, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  asteroidExplosion: {fileID: 9074552155992758149, guid: 5215ee35441956f4299a6b6793bff37a,
+    type: 3}
 --- !u!4 &153375514 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 400000, guid: 87a7172321f03484a9f7bf3cdf05c6dc,
     type: 3}
   m_PrefabInstance: {fileID: 1713572620}
   m_PrefabAsset: {fileID: 0}
+--- !u!64 &153375515
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 153375510}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Convex: 1
+  m_CookingOptions: 14
+  m_Mesh: {fileID: 4300000, guid: 87a7172321f03484a9f7bf3cdf05c6dc, type: 3}
 --- !u!1 &158395195 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 100000, guid: 72fd38d3d1566e74b8726177e8de153f,
@@ -406,12 +486,28 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ea7c251940678af4e8b2363e41ade929, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  asteroidExplosion: {fileID: 9074552155992758149, guid: 5215ee35441956f4299a6b6793bff37a,
+    type: 3}
 --- !u!4 &158395199 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 400000, guid: 72fd38d3d1566e74b8726177e8de153f,
     type: 3}
   m_PrefabInstance: {fileID: 1986105976}
   m_PrefabAsset: {fileID: 0}
+--- !u!64 &158395200
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 158395195}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Convex: 1
+  m_CookingOptions: 14
+  m_Mesh: {fileID: 4300000, guid: 72fd38d3d1566e74b8726177e8de153f, type: 3}
 --- !u!1001 &173678805
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -481,12 +577,32 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 72fd38d3d1566e74b8726177e8de153f, type: 3}
+--- !u!1 &326586116 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 326586116, guid: 45594c8e83b7298498da3a41a5f28a0b,
+    type: 3}
+  m_PrefabInstance: {fileID: 1502572592}
+  m_PrefabAsset: {fileID: 0}
 --- !u!4 &326586120 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 326586120, guid: 45594c8e83b7298498da3a41a5f28a0b,
     type: 3}
   m_PrefabInstance: {fileID: 1502572592}
   m_PrefabAsset: {fileID: 0}
+--- !u!64 &326586121
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 326586116}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Convex: 1
+  m_CookingOptions: 14
+  m_Mesh: {fileID: 4300000, guid: 72fd38d3d1566e74b8726177e8de153f, type: 3}
 --- !u!1001 &379361896
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -574,12 +690,28 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ea7c251940678af4e8b2363e41ade929, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  asteroidExplosion: {fileID: 9074552155992758149, guid: 5215ee35441956f4299a6b6793bff37a,
+    type: 3}
 --- !u!4 &426354333 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 400000, guid: 72fd38d3d1566e74b8726177e8de153f,
     type: 3}
   m_PrefabInstance: {fileID: 621916400}
   m_PrefabAsset: {fileID: 0}
+--- !u!64 &426354334
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 426354329}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Convex: 1
+  m_CookingOptions: 14
+  m_Mesh: {fileID: 4300000, guid: 72fd38d3d1566e74b8726177e8de153f, type: 3}
 --- !u!1001 &533357349
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -785,7 +917,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 3
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 34.821003, y: -45.000004, z: 0}
 --- !u!1001 &580710021
 PrefabInstance:
@@ -874,12 +1006,28 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ea7c251940678af4e8b2363e41ade929, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  asteroidExplosion: {fileID: 9074552155992758149, guid: 5215ee35441956f4299a6b6793bff37a,
+    type: 3}
 --- !u!4 &581821051 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 400000, guid: 72fd38d3d1566e74b8726177e8de153f,
     type: 3}
   m_PrefabInstance: {fileID: 2144749947}
   m_PrefabAsset: {fileID: 0}
+--- !u!64 &581821052
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 581821047}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Convex: 1
+  m_CookingOptions: 14
+  m_Mesh: {fileID: 4300000, guid: 72fd38d3d1566e74b8726177e8de153f, type: 3}
 --- !u!1001 &611760880
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -905,7 +1053,7 @@ PrefabInstance:
     - target: {fileID: 6891166509261597340, guid: f4fb3662f8c768e4fbb65c40759cb3fd,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: 321.9
+      value: 307.24
       objectReference: {fileID: 0}
     - target: {fileID: 6891166509261597340, guid: f4fb3662f8c768e4fbb65c40759cb3fd,
         type: 3}
@@ -930,7 +1078,7 @@ PrefabInstance:
     - target: {fileID: 6891166509261597340, guid: f4fb3662f8c768e4fbb65c40759cb3fd,
         type: 3}
       propertyPath: m_RootOrder
-      value: 2
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6891166509261597340, guid: f4fb3662f8c768e4fbb65c40759cb3fd,
         type: 3}
@@ -1110,12 +1258,28 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ea7c251940678af4e8b2363e41ade929, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  asteroidExplosion: {fileID: 9074552155992758149, guid: 5215ee35441956f4299a6b6793bff37a,
+    type: 3}
 --- !u!4 &675443113 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 400000, guid: 72fd38d3d1566e74b8726177e8de153f,
     type: 3}
   m_PrefabInstance: {fileID: 728180963}
   m_PrefabAsset: {fileID: 0}
+--- !u!64 &675443114
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 675443109}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Convex: 1
+  m_CookingOptions: 14
+  m_Mesh: {fileID: 4300000, guid: 72fd38d3d1566e74b8726177e8de153f, type: 3}
 --- !u!1001 &728180963
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1203,12 +1367,28 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ea7c251940678af4e8b2363e41ade929, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  asteroidExplosion: {fileID: 9074552155992758149, guid: 5215ee35441956f4299a6b6793bff37a,
+    type: 3}
 --- !u!4 &809475397 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 400000, guid: 72fd38d3d1566e74b8726177e8de153f,
     type: 3}
   m_PrefabInstance: {fileID: 1090668935}
   m_PrefabAsset: {fileID: 0}
+--- !u!64 &809475398
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 809475393}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Convex: 1
+  m_CookingOptions: 14
+  m_Mesh: {fileID: 4300000, guid: 72fd38d3d1566e74b8726177e8de153f, type: 3}
 --- !u!1001 &823658763
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1365,12 +1545,28 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ea7c251940678af4e8b2363e41ade929, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  asteroidExplosion: {fileID: 9074552155992758149, guid: 5215ee35441956f4299a6b6793bff37a,
+    type: 3}
 --- !u!4 &854968387 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 400000, guid: 72fd38d3d1566e74b8726177e8de153f,
     type: 3}
   m_PrefabInstance: {fileID: 1278496069}
   m_PrefabAsset: {fileID: 0}
+--- !u!64 &854968388
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 854968383}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Convex: 1
+  m_CookingOptions: 14
+  m_Mesh: {fileID: 4300000, guid: 72fd38d3d1566e74b8726177e8de153f, type: 3}
 --- !u!1 &900838231
 GameObject:
   m_ObjectHideFlags: 0
@@ -1460,7 +1656,7 @@ Transform:
   m_LocalScale: {x: 0.05, y: 0.05, z: 163.08716}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 4
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &914643426 stripped
 GameObject:
@@ -1480,12 +1676,28 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ea7c251940678af4e8b2363e41ade929, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  asteroidExplosion: {fileID: 9074552155992758149, guid: 5215ee35441956f4299a6b6793bff37a,
+    type: 3}
 --- !u!4 &914643430 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 400000, guid: 87a7172321f03484a9f7bf3cdf05c6dc,
     type: 3}
   m_PrefabInstance: {fileID: 1989847633}
   m_PrefabAsset: {fileID: 0}
+--- !u!64 &914643431
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 914643426}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Convex: 1
+  m_CookingOptions: 14
+  m_Mesh: {fileID: 4300000, guid: 87a7172321f03484a9f7bf3cdf05c6dc, type: 3}
 --- !u!1001 &944582237
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1642,6 +1854,28 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ea7c251940678af4e8b2363e41ade929, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  asteroidExplosion: {fileID: 9074552155992758149, guid: 5215ee35441956f4299a6b6793bff37a,
+    type: 3}
+--- !u!4 &978860123 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 400000, guid: 87a7172321f03484a9f7bf3cdf05c6dc,
+    type: 3}
+  m_PrefabInstance: {fileID: 1520828144}
+  m_PrefabAsset: {fileID: 0}
+--- !u!64 &978860124
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 978860119}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Convex: 1
+  m_CookingOptions: 14
+  m_Mesh: {fileID: 4300000, guid: 87a7172321f03484a9f7bf3cdf05c6dc, type: 3}
 --- !u!1001 &996993151
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1729,12 +1963,28 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ea7c251940678af4e8b2363e41ade929, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  asteroidExplosion: {fileID: 9074552155992758149, guid: 5215ee35441956f4299a6b6793bff37a,
+    type: 3}
 --- !u!4 &1032376281 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 400000, guid: 72fd38d3d1566e74b8726177e8de153f,
     type: 3}
   m_PrefabInstance: {fileID: 2108776287}
   m_PrefabAsset: {fileID: 0}
+--- !u!64 &1032376282
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1032376277}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Convex: 1
+  m_CookingOptions: 14
+  m_Mesh: {fileID: 4300000, guid: 72fd38d3d1566e74b8726177e8de153f, type: 3}
 --- !u!1 &1044085592
 GameObject:
   m_ObjectHideFlags: 0
@@ -1793,8 +2043,9 @@ Transform:
   - {fileID: 42119868}
   - {fileID: 1568180640}
   - {fileID: 1685980627}
+  - {fileID: 978860123}
   m_Father: {fileID: 0}
-  m_RootOrder: 5
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1085367160 stripped
 GameObject:
@@ -1814,12 +2065,28 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ea7c251940678af4e8b2363e41ade929, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  asteroidExplosion: {fileID: 9074552155992758149, guid: 5215ee35441956f4299a6b6793bff37a,
+    type: 3}
 --- !u!4 &1085367164 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 400000, guid: 72fd38d3d1566e74b8726177e8de153f,
     type: 3}
   m_PrefabInstance: {fileID: 57691447}
   m_PrefabAsset: {fileID: 0}
+--- !u!64 &1085367165
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1085367160}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Convex: 1
+  m_CookingOptions: 14
+  m_Mesh: {fileID: 4300000, guid: 72fd38d3d1566e74b8726177e8de153f, type: 3}
 --- !u!1001 &1090668935
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1976,12 +2243,28 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ea7c251940678af4e8b2363e41ade929, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  asteroidExplosion: {fileID: 9074552155992758149, guid: 5215ee35441956f4299a6b6793bff37a,
+    type: 3}
 --- !u!4 &1185537086 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 400000, guid: 72fd38d3d1566e74b8726177e8de153f,
     type: 3}
   m_PrefabInstance: {fileID: 971254604}
   m_PrefabAsset: {fileID: 0}
+--- !u!64 &1185537087
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1185537082}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Convex: 1
+  m_CookingOptions: 14
+  m_Mesh: {fileID: 4300000, guid: 72fd38d3d1566e74b8726177e8de153f, type: 3}
 --- !u!1 &1241168936 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 100000, guid: 72fd38d3d1566e74b8726177e8de153f,
@@ -2000,12 +2283,28 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ea7c251940678af4e8b2363e41ade929, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  asteroidExplosion: {fileID: 9074552155992758149, guid: 5215ee35441956f4299a6b6793bff37a,
+    type: 3}
 --- !u!4 &1241168940 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 400000, guid: 72fd38d3d1566e74b8726177e8de153f,
     type: 3}
   m_PrefabInstance: {fileID: 1772940445}
   m_PrefabAsset: {fileID: 0}
+--- !u!64 &1241168941
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1241168936}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Convex: 1
+  m_CookingOptions: 14
+  m_Mesh: {fileID: 4300000, guid: 72fd38d3d1566e74b8726177e8de153f, type: 3}
 --- !u!1001 &1278496069
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2093,12 +2392,28 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ea7c251940678af4e8b2363e41ade929, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  asteroidExplosion: {fileID: 9074552155992758149, guid: 5215ee35441956f4299a6b6793bff37a,
+    type: 3}
 --- !u!4 &1297151750 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 400000, guid: 72fd38d3d1566e74b8726177e8de153f,
     type: 3}
   m_PrefabInstance: {fileID: 533357349}
   m_PrefabAsset: {fileID: 0}
+--- !u!64 &1297151751
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1297151746}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Convex: 1
+  m_CookingOptions: 14
+  m_Mesh: {fileID: 4300000, guid: 72fd38d3d1566e74b8726177e8de153f, type: 3}
 --- !u!1 &1374603861 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 100000, guid: 72fd38d3d1566e74b8726177e8de153f,
@@ -2117,12 +2432,28 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ea7c251940678af4e8b2363e41ade929, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  asteroidExplosion: {fileID: 9074552155992758149, guid: 5215ee35441956f4299a6b6793bff37a,
+    type: 3}
 --- !u!4 &1374603865 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 400000, guid: 72fd38d3d1566e74b8726177e8de153f,
     type: 3}
   m_PrefabInstance: {fileID: 1484969919}
   m_PrefabAsset: {fileID: 0}
+--- !u!64 &1374603866
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1374603861}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Convex: 1
+  m_CookingOptions: 14
+  m_Mesh: {fileID: 4300000, guid: 72fd38d3d1566e74b8726177e8de153f, type: 3}
 --- !u!1001 &1484969919
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2247,6 +2578,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 326586117, guid: 45594c8e83b7298498da3a41a5f28a0b, type: 3}
+      propertyPath: asteroidExplosion
+      value: 
+      objectReference: {fileID: 9074552155992758149, guid: 5215ee35441956f4299a6b6793bff37a,
+        type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 45594c8e83b7298498da3a41a5f28a0b, type: 3}
 --- !u!1001 &1520828144
@@ -2254,7 +2590,7 @@ PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
-    m_TransformParent: {fileID: 0}
+    m_TransformParent: {fileID: 1044085593}
     m_Modifications:
     - target: {fileID: 100000, guid: 87a7172321f03484a9f7bf3cdf05c6dc, type: 3}
       propertyPath: m_Name
@@ -2262,19 +2598,19 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 87a7172321f03484a9f7bf3cdf05c6dc, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 73.7
+      value: -6.9533463
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 87a7172321f03484a9f7bf3cdf05c6dc, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 99.18721
+      value: 2.68219
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 87a7172321f03484a9f7bf3cdf05c6dc, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 358.27
+      value: -44.668304
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 87a7172321f03484a9f7bf3cdf05c6dc, type: 3}
       propertyPath: m_LocalRotation.x
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 87a7172321f03484a9f7bf3cdf05c6dc, type: 3}
       propertyPath: m_LocalRotation.y
@@ -2290,7 +2626,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 87a7172321f03484a9f7bf3cdf05c6dc, type: 3}
       propertyPath: m_RootOrder
-      value: 1
+      value: 31
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 87a7172321f03484a9f7bf3cdf05c6dc, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -2373,6 +2709,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 41.364
       objectReference: {fileID: 0}
+    - target: {fileID: 1948185856, guid: 42cbdb669fa0f364b871b380b0ea8a08, type: 3}
+      propertyPath: asteroidExplosion
+      value: 
+      objectReference: {fileID: 9074552155992758149, guid: 5215ee35441956f4299a6b6793bff37a,
+        type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 42cbdb669fa0f364b871b380b0ea8a08, type: 3}
 --- !u!1 &1568180636 stripped
@@ -2393,12 +2734,28 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ea7c251940678af4e8b2363e41ade929, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  asteroidExplosion: {fileID: 9074552155992758149, guid: 5215ee35441956f4299a6b6793bff37a,
+    type: 3}
 --- !u!4 &1568180640 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 400000, guid: 87a7172321f03484a9f7bf3cdf05c6dc,
     type: 3}
   m_PrefabInstance: {fileID: 1091072554}
   m_PrefabAsset: {fileID: 0}
+--- !u!64 &1568180641
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1568180636}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Convex: 1
+  m_CookingOptions: 14
+  m_Mesh: {fileID: 4300000, guid: 87a7172321f03484a9f7bf3cdf05c6dc, type: 3}
 --- !u!1 &1620135329 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 100000, guid: 72fd38d3d1566e74b8726177e8de153f,
@@ -2417,12 +2774,28 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ea7c251940678af4e8b2363e41ade929, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  asteroidExplosion: {fileID: 9074552155992758149, guid: 5215ee35441956f4299a6b6793bff37a,
+    type: 3}
 --- !u!4 &1620135333 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 400000, guid: 72fd38d3d1566e74b8726177e8de153f,
     type: 3}
   m_PrefabInstance: {fileID: 1621581958}
   m_PrefabAsset: {fileID: 0}
+--- !u!64 &1620135334
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1620135329}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Convex: 1
+  m_CookingOptions: 14
+  m_Mesh: {fileID: 4300000, guid: 72fd38d3d1566e74b8726177e8de153f, type: 3}
 --- !u!1001 &1621581958
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2510,12 +2883,28 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ea7c251940678af4e8b2363e41ade929, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  asteroidExplosion: {fileID: 9074552155992758149, guid: 5215ee35441956f4299a6b6793bff37a,
+    type: 3}
 --- !u!4 &1685980627 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 400000, guid: 87a7172321f03484a9f7bf3cdf05c6dc,
     type: 3}
   m_PrefabInstance: {fileID: 854505672}
   m_PrefabAsset: {fileID: 0}
+--- !u!64 &1685980628
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1685980623}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Convex: 1
+  m_CookingOptions: 14
+  m_Mesh: {fileID: 4300000, guid: 87a7172321f03484a9f7bf3cdf05c6dc, type: 3}
 --- !u!1 &1706482417 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 100000, guid: 72fd38d3d1566e74b8726177e8de153f,
@@ -2534,12 +2923,28 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ea7c251940678af4e8b2363e41ade929, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  asteroidExplosion: {fileID: 9074552155992758149, guid: 5215ee35441956f4299a6b6793bff37a,
+    type: 3}
 --- !u!4 &1706482421 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 400000, guid: 72fd38d3d1566e74b8726177e8de153f,
     type: 3}
   m_PrefabInstance: {fileID: 173678805}
   m_PrefabAsset: {fileID: 0}
+--- !u!64 &1706482422
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1706482417}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Convex: 1
+  m_CookingOptions: 14
+  m_Mesh: {fileID: 4300000, guid: 72fd38d3d1566e74b8726177e8de153f, type: 3}
 --- !u!1001 &1713572620
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2696,12 +3101,28 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ea7c251940678af4e8b2363e41ade929, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  asteroidExplosion: {fileID: 9074552155992758149, guid: 5215ee35441956f4299a6b6793bff37a,
+    type: 3}
 --- !u!4 &1754921520 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 400000, guid: 72fd38d3d1566e74b8726177e8de153f,
     type: 3}
   m_PrefabInstance: {fileID: 823658763}
   m_PrefabAsset: {fileID: 0}
+--- !u!64 &1754921521
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1754921516}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Convex: 1
+  m_CookingOptions: 14
+  m_Mesh: {fileID: 4300000, guid: 72fd38d3d1566e74b8726177e8de153f, type: 3}
 --- !u!1 &1769655565 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 100000, guid: 72fd38d3d1566e74b8726177e8de153f,
@@ -2720,12 +3141,28 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ea7c251940678af4e8b2363e41ade929, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  asteroidExplosion: {fileID: 9074552155992758149, guid: 5215ee35441956f4299a6b6793bff37a,
+    type: 3}
 --- !u!4 &1769655569 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 400000, guid: 72fd38d3d1566e74b8726177e8de153f,
     type: 3}
   m_PrefabInstance: {fileID: 580710021}
   m_PrefabAsset: {fileID: 0}
+--- !u!64 &1769655570
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1769655565}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Convex: 1
+  m_CookingOptions: 14
+  m_Mesh: {fileID: 4300000, guid: 72fd38d3d1566e74b8726177e8de153f, type: 3}
 --- !u!1001 &1772940445
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2813,12 +3250,28 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ea7c251940678af4e8b2363e41ade929, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  asteroidExplosion: {fileID: 9074552155992758149, guid: 5215ee35441956f4299a6b6793bff37a,
+    type: 3}
 --- !u!4 &1826974083 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 400000, guid: 87a7172321f03484a9f7bf3cdf05c6dc,
     type: 3}
   m_PrefabInstance: {fileID: 2055740917}
   m_PrefabAsset: {fileID: 0}
+--- !u!64 &1826974084
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1826974079}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Convex: 1
+  m_CookingOptions: 14
+  m_Mesh: {fileID: 4300000, guid: 87a7172321f03484a9f7bf3cdf05c6dc, type: 3}
 --- !u!1 &1877693233
 GameObject:
   m_ObjectHideFlags: 0
@@ -2901,12 +3354,32 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1948185855 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1948185855, guid: 42cbdb669fa0f364b871b380b0ea8a08,
+    type: 3}
+  m_PrefabInstance: {fileID: 1551654522}
+  m_PrefabAsset: {fileID: 0}
 --- !u!4 &1948185859 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 1948185859, guid: 42cbdb669fa0f364b871b380b0ea8a08,
     type: 3}
   m_PrefabInstance: {fileID: 1551654522}
   m_PrefabAsset: {fileID: 0}
+--- !u!64 &1948185860
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1948185855}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Convex: 1
+  m_CookingOptions: 14
+  m_Mesh: {fileID: 4300000, guid: 87a7172321f03484a9f7bf3cdf05c6dc, type: 3}
 --- !u!1 &1978874294 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 100000, guid: 72fd38d3d1566e74b8726177e8de153f,
@@ -2925,12 +3398,28 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ea7c251940678af4e8b2363e41ade929, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  asteroidExplosion: {fileID: 9074552155992758149, guid: 5215ee35441956f4299a6b6793bff37a,
+    type: 3}
 --- !u!4 &1978874298 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 400000, guid: 72fd38d3d1566e74b8726177e8de153f,
     type: 3}
   m_PrefabInstance: {fileID: 996993151}
   m_PrefabAsset: {fileID: 0}
+--- !u!64 &1978874299
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1978874294}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Convex: 1
+  m_CookingOptions: 14
+  m_Mesh: {fileID: 4300000, guid: 72fd38d3d1566e74b8726177e8de153f, type: 3}
 --- !u!1 &1985953919 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 100000, guid: 72fd38d3d1566e74b8726177e8de153f,
@@ -2949,12 +3438,28 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ea7c251940678af4e8b2363e41ade929, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  asteroidExplosion: {fileID: 9074552155992758149, guid: 5215ee35441956f4299a6b6793bff37a,
+    type: 3}
 --- !u!4 &1985953923 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 400000, guid: 72fd38d3d1566e74b8726177e8de153f,
     type: 3}
   m_PrefabInstance: {fileID: 944582237}
   m_PrefabAsset: {fileID: 0}
+--- !u!64 &1985953924
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1985953919}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Convex: 1
+  m_CookingOptions: 14
+  m_Mesh: {fileID: 4300000, guid: 72fd38d3d1566e74b8726177e8de153f, type: 3}
 --- !u!1001 &1986105976
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3111,12 +3616,28 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ea7c251940678af4e8b2363e41ade929, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  asteroidExplosion: {fileID: 9074552155992758149, guid: 5215ee35441956f4299a6b6793bff37a,
+    type: 3}
 --- !u!4 &2054666711 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 400000, guid: 87a7172321f03484a9f7bf3cdf05c6dc,
     type: 3}
   m_PrefabInstance: {fileID: 137087070}
   m_PrefabAsset: {fileID: 0}
+--- !u!64 &2054666712
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2054666707}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Convex: 1
+  m_CookingOptions: 14
+  m_Mesh: {fileID: 4300000, guid: 87a7172321f03484a9f7bf3cdf05c6dc, type: 3}
 --- !u!1001 &2055740917
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3342,12 +3863,28 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ea7c251940678af4e8b2363e41ade929, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  asteroidExplosion: {fileID: 9074552155992758149, guid: 5215ee35441956f4299a6b6793bff37a,
+    type: 3}
 --- !u!4 &2136000352 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 400000, guid: 72fd38d3d1566e74b8726177e8de153f,
     type: 3}
   m_PrefabInstance: {fileID: 555331649}
   m_PrefabAsset: {fileID: 0}
+--- !u!64 &2136000353
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2136000348}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Convex: 1
+  m_CookingOptions: 14
+  m_Mesh: {fileID: 4300000, guid: 72fd38d3d1566e74b8726177e8de153f, type: 3}
 --- !u!1001 &2144749947
 PrefabInstance:
   m_ObjectHideFlags: 0

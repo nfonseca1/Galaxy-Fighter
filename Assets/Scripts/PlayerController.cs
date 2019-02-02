@@ -20,8 +20,19 @@ public class PlayerController : MonoBehaviour
     [SerializeField] float controlPitchFactor = -5f;
     [SerializeField] float controlRollFactor = -30f;
 
+    ParticleSystem leftGun, rightGun;
     float xThrow, yThrow;
     bool isControlDisabled = false;
+    enum Blaster {LeftBlaster, RightBlaster }
+    Blaster currentBlaster = Blaster.LeftBlaster;
+    float blasterTime = 0f;
+
+    private void Start()
+    {
+        leftGun = guns[0].GetComponent<ParticleSystem>();
+
+        rightGun = guns[1].GetComponent<ParticleSystem>();
+    }
 
     // Update is called once per frame
     void Update()
@@ -75,22 +86,24 @@ public class PlayerController : MonoBehaviour
 
     private void ProcessFiring()
     {
+        blasterTime += Time.deltaTime;
         if (CrossPlatformInputManager.GetButton("Fire1"))
         {
-            foreach (var gun in guns)
+            if(blasterTime >= .1f)
             {
-                ParticleSystem particles = gun.GetComponent<ParticleSystem>();
-                ParticleSystem.EmissionModule emission = particles.emission;
-                emission.enabled = true;
-            }
-        } 
-        else
-        {
-            foreach (var gun in guns)
-            {
-                ParticleSystem particles = gun.GetComponent<ParticleSystem>();
-                ParticleSystem.EmissionModule emission = particles.emission;
-                emission.enabled = false;
+                if(currentBlaster == Blaster.LeftBlaster)
+                {
+                    leftGun.Play();
+                    
+                    currentBlaster = Blaster.RightBlaster;
+                    blasterTime = 0;
+                }
+                else
+                {
+                    rightGun.Play();
+                    currentBlaster = Blaster.LeftBlaster;
+                    blasterTime = 0;
+                }
             }
         }
     }
