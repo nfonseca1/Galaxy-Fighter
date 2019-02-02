@@ -114,14 +114,23 @@ public class PlayerController : MonoBehaviour
 
     private Vector3 ProcessAiming()
     {
-        Vector3 crosshairPosition = Input.mousePosition;
+        Camera mainCamera = Camera.main;
+
+        Vector3 shipScreenLocation = mainCamera.WorldToScreenPoint(transform.position);
+
+        Vector3 mousePosition = Input.mousePosition;
+        float maxWidth = Screen.width * 0.25f;
+        float maxHeight = Screen.height * 0.25f;
+        float clampedX = Mathf.Clamp(mousePosition.x, shipScreenLocation.x - maxWidth, shipScreenLocation.x + maxWidth);
+        float clampedY = Mathf.Clamp(mousePosition.y, shipScreenLocation.y - maxWidth, shipScreenLocation.y + maxWidth);
+
+        Vector2 crosshairPosition = new Vector2(clampedX, clampedY);
         crosshair.transform.position = crosshairPosition;
         
-        Camera mainCamera = Camera.main;
         Vector3 screenPoint = mainCamera.ScreenToWorldPoint(new Vector3(
             crosshairPosition.x, 
             crosshairPosition.y, 
-            1
+            15
             ));
 
         Vector3 rayDirection = screenPoint - mainCamera.gameObject.transform.position;

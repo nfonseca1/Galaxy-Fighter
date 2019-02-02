@@ -1040,6 +1040,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Player Rig
       objectReference: {fileID: 0}
+    - target: {fileID: 6891166509261597339, guid: f4fb3662f8c768e4fbb65c40759cb3fd,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 6891166509261597340, guid: f4fb3662f8c768e4fbb65c40759cb3fd,
         type: 3}
       propertyPath: m_LocalPosition.x
