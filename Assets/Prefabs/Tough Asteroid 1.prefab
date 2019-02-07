@@ -11,8 +11,8 @@ GameObject:
   - component: {fileID: 4926376696844052747}
   - component: {fileID: 6481760522836625095}
   - component: {fileID: 4518671826126718073}
-  - component: {fileID: 8888716149893235820}
   - component: {fileID: 9038153427839975920}
+  - component: {fileID: 8888716149893235820}
   m_Layer: 0
   m_Name: Tough Asteroid 1
   m_TagString: Untagged
@@ -79,6 +79,20 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+--- !u!64 &9038153427839975920
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2161209906038157515}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Convex: 1
+  m_CookingOptions: 14
+  m_Mesh: {fileID: 4300000, guid: 72fd38d3d1566e74b8726177e8de153f, type: 3}
 --- !u!114 &8888716149893235820
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -94,17 +108,3 @@ MonoBehaviour:
   asteroidExplosion: {fileID: 9074552155992758149, guid: 5215ee35441956f4299a6b6793bff37a,
     type: 3}
   health: 10
---- !u!64 &9038153427839975920
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2161209906038157515}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Convex: 1
-  m_CookingOptions: 14
-  m_Mesh: {fileID: 4300000, guid: 72fd38d3d1566e74b8726177e8de153f, type: 3}

@@ -5,8 +5,8 @@ using UnityEngine;
 public class EnemyMovement : MonoBehaviour
 {
     [Header("Movement")]
-    [SerializeField] float thrustSpeed = 5f;
-    [SerializeField] float rotationSpeed = 45f;
+    public float thrustSpeed = 5f;
+    public float rotationSpeed = 45f;
 
     // Update is called once per frame
     void Update()

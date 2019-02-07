@@ -17,10 +17,13 @@ public class CollisionHandler : MonoBehaviour
 
     private void OnTriggerEnter(Collider other)
     {
-        SendMessage("OnPlayerDeath");
-        deathFX.SetActive(true);
-        meshRenderer.enabled = false;
-        Invoke("ReloadScene", levelLoadDelay);
+        if(other.gameObject.tag != "Friendly")
+        {
+            SendMessage("OnPlayerDeath");
+            deathFX.SetActive(true);
+            meshRenderer.enabled = false;
+            Invoke("ReloadScene", levelLoadDelay);
+        }
     }
 
     private void ReloadScene()

@@ -18,7 +18,6 @@ public class Asteroid : MonoBehaviour
 
     private void OnParticleCollision(GameObject other)
     {
-        print("Hit");
         hitCount++;
         if(hitCount >= health)
         {
