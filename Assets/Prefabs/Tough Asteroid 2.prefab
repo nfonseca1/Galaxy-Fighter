@@ -1,6 +1,6 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!1 &1074994750746910
+--- !u!1 &1342016723181021417
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -8,47 +8,46 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 4990607877152018}
-  - component: {fileID: 33830965679388596}
-  - component: {fileID: 23413581245250402}
-  - component: {fileID: 8337267824071498168}
-  - component: {fileID: 2807449338264253316}
+  - component: {fileID: 7499238103539274150}
+  - component: {fileID: 7175274669304762160}
+  - component: {fileID: 6341586074812922152}
+  - component: {fileID: 7725432789596159785}
   m_Layer: 0
-  m_Name: Ship_03
+  m_Name: Tough Asteroid 2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &4990607877152018
+--- !u!4 &7499238103539274150
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1074994750746910}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: -1.7287916}
-  m_LocalScale: {x: 2, y: 2, z: 4}
+  m_GameObject: {fileID: 1342016723181021417}
+  m_LocalRotation: {x: -0.91164035, y: 0.32640934, z: -0.22899488, w: 0.099650376}
+  m_LocalPosition: {x: 73.58, y: 105.69, z: 471.8}
+  m_LocalScale: {x: 6.019127, y: 6.0191274, z: 6.0191298}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!33 &33830965679388596
+  m_LocalEulerAnglesHint: {x: -178.155, y: -28.869995, z: 39.873993}
+--- !u!33 &7175274669304762160
 MeshFilter:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1074994750746910}
-  m_Mesh: {fileID: 4300002, guid: ec2ed6fafcc53c64ba923b9ef7d5749f, type: 3}
---- !u!23 &23413581245250402
+  m_GameObject: {fileID: 1342016723181021417}
+  m_Mesh: {fileID: 4300000, guid: 87a7172321f03484a9f7bf3cdf05c6dc, type: 3}
+--- !u!23 &6341586074812922152
 MeshRenderer:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1074994750746910}
+  m_GameObject: {fileID: 1342016723181021417}
   m_Enabled: 1
   m_CastShadows: 1
   m_ReceiveShadows: 1
@@ -59,7 +58,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: e452c8f12eadad94b88ef3a0aa794f33, type: 2}
+  - {fileID: 2100000, guid: 2cdea20c161141c409b813b462c0cd60, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -79,32 +78,17 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
---- !u!65 &8337267824071498168
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1074994750746910}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 0.64664847, y: 0.63312775, z: 0.09151077}
-  m_Center: {x: 0, y: 0, z: 0}
---- !u!114 &2807449338264253316
+--- !u!114 &7725432789596159785
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1074994750746910}
+  m_GameObject: {fileID: 1342016723181021417}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: dcaae9f345a718341aa22893f71f0d9b, type: 3}
+  m_Script: {fileID: 11500000, guid: ea7c251940678af4e8b2363e41ade929, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  parent: {fileID: 0}
-  deathFX: {fileID: 1321962569047890362, guid: e3a8b9bdbe269134b9d27264c509289c, type: 3}
-  scorePerHit: 10
-  hits: 1
+  asteroidExplosion: {fileID: 0}
+  health: 10

@@ -12,8 +12,9 @@ GameObject:
   - component: {fileID: 326586119}
   - component: {fileID: 326586118}
   - component: {fileID: 326586117}
+  - component: {fileID: 326586121}
   m_Layer: 0
-  m_Name: Asteroid_01_S (1)
+  m_Name: Asteroid 1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -26,7 +27,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 326586116}
-  m_LocalRotation: {x: -0, y: -0.89879876, z: -0, w: 0.43836161}
+  m_LocalRotation: {x: 0, y: -0.89879787, z: 0, w: 0.43836328}
   m_LocalPosition: {x: 2.7066574, y: 0.2649765, z: -57.878296}
   m_LocalScale: {x: 2.6510096, y: 2.6510072, z: 2.6510096}
   m_Children: []
@@ -90,3 +91,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ea7c251940678af4e8b2363e41ade929, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  asteroidExplosion: {fileID: 9074552155992758149, guid: 5215ee35441956f4299a6b6793bff37a,
+    type: 3}
+--- !u!64 &326586121
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 326586116}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Convex: 1
+  m_CookingOptions: 14
+  m_Mesh: {fileID: 4300000, guid: 72fd38d3d1566e74b8726177e8de153f, type: 3}

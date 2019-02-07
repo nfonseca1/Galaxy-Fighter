@@ -5,8 +5,8 @@ using UnityEngine;
 public class Asteroid : MonoBehaviour
 {
     [SerializeField] ParticleSystem asteroidExplosion;
+    [SerializeField] int health = 5;
 
-    int health = 3;
     int hitCount = 0;
 
     // Update is called once per frame

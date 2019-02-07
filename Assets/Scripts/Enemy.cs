@@ -4,21 +4,17 @@ using UnityEngine;
 
 public class Enemy : MonoBehaviour
 {
-    [Header("Movement")]
-    [SerializeField] float thrustSpeed = 5f;
-    [SerializeField] float rotationSpeed = 45f;
-
     [SerializeField] Transform parent;
     [SerializeField] GameObject deathFX;
     [SerializeField] int scorePerHit = 10;
-    [SerializeField] int hits = 5;
+    [SerializeField] int hits = 1;
 
     ScoreBoard scoreBoard;
 
     void Start()
     {
         AddBoxCollider();
-        scoreBoard = FindObjectOfType<ScoreBoard>();
+        //scoreBoard = FindObjectOfType<ScoreBoard>();
     }
 
     private void AddBoxCollider()
@@ -27,15 +23,9 @@ public class Enemy : MonoBehaviour
         boxCollider.isTrigger = false;
     }
 
-    private void Update()
-    {
-        transform.Rotate(new Vector3(rotationSpeed * Time.deltaTime, 0, 0));
-        transform.Translate(new Vector3(0, -thrustSpeed * Time.deltaTime, 0), Space.Self);
-    }
-
     private void OnParticleCollision(GameObject other)
     {
-        scoreBoard.ScoreHit(scorePerHit);
+        //scoreBoard.ScoreHit(scorePerHit);
         hits--;
         if(hits <= 0)
         {
@@ -46,7 +36,7 @@ public class Enemy : MonoBehaviour
     private void KillEnemy()
     {
         GameObject fx = Instantiate(deathFX, transform.position, Quaternion.identity);
-        fx.transform.parent = parent;
+        //fx.transform.parent = parent;
         Destroy(fx, 2f);
         Destroy(gameObject);
     }
