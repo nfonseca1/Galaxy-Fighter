@@ -4,6 +4,10 @@ using UnityEngine;
 
 public class Enemy : MonoBehaviour
 {
+    [Header("Movement")]
+    [SerializeField] float thrustSpeed = 5f;
+    [SerializeField] float rotationSpeed = 45f;
+
     [SerializeField] Transform parent;
     [SerializeField] GameObject deathFX;
     [SerializeField] int scorePerHit = 10;
@@ -21,6 +25,12 @@ public class Enemy : MonoBehaviour
     {
         BoxCollider boxCollider = gameObject.AddComponent<BoxCollider>();
         boxCollider.isTrigger = false;
+    }
+
+    private void Update()
+    {
+        transform.Rotate(new Vector3(rotationSpeed * Time.deltaTime, 0, 0));
+        transform.Translate(new Vector3(0, -thrustSpeed * Time.deltaTime, 0), Space.Self);
     }
 
     private void OnParticleCollision(GameObject other)
