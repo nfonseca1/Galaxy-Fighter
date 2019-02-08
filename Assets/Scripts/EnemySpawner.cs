@@ -8,7 +8,7 @@ public class EnemySpawner : MonoBehaviour
     [SerializeField] float speed = 5f;
     [SerializeField] float rotation = 45f;
 
-    [SerializeField] Transform spawner;
+    [SerializeField] Transform[] spawners;
     [SerializeField] EnemyMovement enemyGroup;
 
     bool isTriggered = false;
@@ -26,10 +26,13 @@ public class EnemySpawner : MonoBehaviour
         if (!isTriggered)
         {
             isTriggered = true;
-            EnemyMovement group = Instantiate(enemyGroup, spawner.transform.position, spawner.rotation);
-            Destroy(group, 10f);
-            group.thrustSpeed = speed;
-            group.rotationSpeed = rotation;
+            foreach(var spawner in spawners)
+            {
+                EnemyMovement group = Instantiate(enemyGroup, spawner.transform.position, spawner.rotation);
+                Destroy(group, 10f);
+                group.thrustSpeed = speed;
+                group.rotationSpeed = rotation;
+            }
         }
     }
 }
